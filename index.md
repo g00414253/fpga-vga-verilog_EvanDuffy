@@ -32,7 +32,7 @@ The synthesis process translates the Verilog HDL into a hardware netlist, ready 
 
 ### Demostration
 <video width="320" height="240" autoplay muted>
-  <source src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/Demo_Vid.mp4" type="video/mp4">
+  <source src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/Demo_Vid.mp4">
 </video>
 
 ## **My VGA Design Edit**
