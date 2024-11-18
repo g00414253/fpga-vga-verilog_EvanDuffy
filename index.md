@@ -5,7 +5,7 @@ tags: fpga vga verilog
 categories: demo
 ---
 
-Add a short welcome message or introduction here. Aim to get the viewer interested in what follows! Guideline: 1 or 2 sentences.
+System on Chip Design & Verification FPGA VGA Driver Project to display graphics on a 640x480 display,Using Vivado and Verilog.
 
 ## **Template VGA Design**
 ### **Project Set-Up**
