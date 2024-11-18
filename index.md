@@ -4,7 +4,7 @@ title: FPGA VGA Driver Project
 tags: fpga vga verilog
 categories: demo
 ---
-<video width="640" height="360" controls>
+<video width="640" height="360" autoplay muted>
     <source src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/Demo_Vid.webm" type="video/webm">
     Your browser does not support this video format.
 </video>
