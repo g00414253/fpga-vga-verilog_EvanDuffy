@@ -5,11 +5,11 @@ tags: fpga vga verilog
 categories: demo
 ---
 
-System on Chip Design & Verification FPGA VGA Driver Project to display graphics on a 640x480 display,Using Vivado and Verilog.
+System on Chip Design & Verification FPGA VGA Driver Project to display graphics on a 640x480 display,Using Vivado and Verilog. The synthesis and implementations have been run successfully with some warnings, and the design has been verified with no fails in the endpoints in the timing analysis. This project set up can be used to create custom VGA imaging.
 
 ## **Template VGA Design**
 ### **Project Set-Up**
-Summarise the project set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
+The project set-up involes developing a FPGA VGA driver by using Vivado. Within the project the target is an Artix-7 FPGA (part xc7a35tcpg236-1) by using Verilog as the design language.
 
 <img src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/ProjectSummary.png">
 ### **Template Code**
