@@ -4,6 +4,10 @@ title: FPGA VGA Driver Project
 tags: fpga vga verilog
 categories: demo
 ---
+<video width="640" height="360" controls>
+    <source src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/Demo_Vid.webm" type="video/webm">
+    Your browser does not support this video format.
+</video>
 
 System on Chip Design & Verification FPGA VGA Driver Project to display graphics on a 640x480 display,Using Vivado and Verilog.
 
