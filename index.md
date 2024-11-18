@@ -4,11 +4,6 @@ title: FPGA VGA Driver Project
 tags: fpga vga verilog
 categories: demo
 ---
-<video width="640" height="360" autoplay muted>
-    <source src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/Demo_Vid.webm" type="video/webm">
-    Your browser does not support this video format.
-</video>
-
 System on Chip Design & Verification FPGA VGA Driver Project to display graphics on a 640x480 display,Using Vivado and Verilog.
 
 ## **Template VGA Design**
@@ -35,7 +30,7 @@ The simulation process within Vivado is used to validate the functionaility of t
 The synthesis process translates the Verilog HDL into a hardware netlist, ready for implementation on the FPGA. Post-synthesis, the design undergoes implementation to map the logic onto the FPGA's fabric, and a successful timing report confirms its readiness for deployment.
 
 ### Demostration
-<video width="640" height="360" controls>
+<video width="640" height="360" autoplay muted>
     <source src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/Demo_Vid.webm" type="video/webm">
     Your browser does not support this video format.
 </video>
