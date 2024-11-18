@@ -25,8 +25,10 @@ Perhaps add a picture of your demo. Guideline: 1/2 sentences. --!>
 The Verilog code templates in the project form the basics for generating and displaying a 640x480 VGA Output. The templates include modules for VGA synchronization signals,RGB signal generation, and memory initialization for image data.The design maintains to VGA timing standards, ensure compatiability with VGA displays.
 ### Simulation
 The simulation process within Vivado is used to validate the functionaility of the desing before implementing the hardware.By running the Verilog testbench in Vivado, the timing of synchronization signals and the correct rendering of pixel data can be observed.*The image below is of the waveform output which can be used to verifiy the designs behavior.* 
+!!!!!!!!!!!!!!!!!!!!!!! IMAGE !!!!!!!!!
 
 ### Synthesis
+The synthesis process translates the Verilog HDL into a hardware netlist, ready for implementation on the FPGA. Post-synthesis, the design undergoes implementation to map the logic onto the FPGA's fabric, and a successful timing report confirms its readiness for deployment.
 
 ### Demostartion
 
