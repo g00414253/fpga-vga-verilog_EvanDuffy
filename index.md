@@ -14,13 +14,13 @@ The project set-up involes developing a FPGA VGA driver by using Vivado. Within 
 
 <img src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/ProjectSummary.png">
 ### **Template Code**
-Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
+<!-- Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
 ### **Simulation**
 Explain the simulation process. Reference any important details, include a well-selected screenshot of the simulation. Guideline: 1/2 short paragraphs.
 ### **Synthesis**
 Describe the synthesis and implementation processes. Consider including 1/2 useful screenshot(s). Guideline: 1/2 short paragraphs.
 ### **Demonstration**
-Perhaps add a picture of your demo. Guideline: 1/2 sentences.
+Perhaps add a picture of your demo. Guideline: 1/2 sentences. --!>
 
 ## **My VGA Design Edit**
 Introduce your own design idea. Consider how complex/achievabble this might be or otherwise. Reference any research you do online (use hyperlinks).
