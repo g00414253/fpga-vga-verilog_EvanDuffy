@@ -13,8 +13,8 @@ The project set-up involes developing a FPGA VGA driver by using Vivado. Within 
 
 
 <img src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/ProjectSummary.png">
-### **Template Code**
-<!-- Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
+<!--### **Template Code**
+Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
 ### **Simulation**
 Explain the simulation process. Reference any important details, include a well-selected screenshot of the simulation. Guideline: 1/2 short paragraphs.
 ### **Synthesis**
@@ -24,7 +24,11 @@ Perhaps add a picture of your demo. Guideline: 1/2 sentences. --!>
 
 The Verilog code templates in the project form the basics for generating and displaying a 640x480 VGA Output. The templates include modules for VGA synchronization signals,RGB signal generation, and memory initialization for image data.The design maintains to VGA timing standards, ensure compatiability with VGA displays.
 ### Simulation
+The simulation process within Vivado is used to validate the functionaility of the desing before implementing the hardware.By running the Verilog testbench in Vivado, the timing of synchronization signals and the correct rendering of pixel data can be observed.  ** *The image below is of the waveform output with can be used to verifiy the designs behavior.* **
 
+### Synthesis
+
+### Demostartion
 
 ## **My VGA Design Edit**
 Introduce your own design idea. Consider how complex/achievabble this might be or otherwise. Reference any research you do online (use hyperlinks).
