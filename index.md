@@ -30,7 +30,7 @@ The simulation process within Vivado is used to validate the functionaility of t
 The synthesis process translates the Verilog HDL into a hardware netlist, ready for implementation on the FPGA. Post-synthesis, the design undergoes implementation to map the logic onto the FPGA's fabric, and a successful timing report confirms its readiness for deployment.
 
 ### Demostration
-<a href="https://www.w3schools.com/](https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/Demo_Vid.webm" target="_blank">Video Demonstration</a>
+<a href="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/Demo_Vid.webm" target="_blank">Video Demonstration</a>
 
 ## **My VGA Design Edit**
 Introduce your own design idea. Consider how complex/achievabble this might be or otherwise. Reference any research you do online (use hyperlinks).
