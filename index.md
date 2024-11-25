@@ -27,7 +27,6 @@ The simulation process within Vivado is used to validate the functionaility of t
 
 <img src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/Simulation.png">
 
-**Simulation Overview:**  
 The image shows the Vivado simulation, validating the design's functionality by displaying signal waveforms like `clk`, `red`, `green`, and `blue`. This ensures correct timing and behavior before hardware implementation.
 
 ### Synthesis
