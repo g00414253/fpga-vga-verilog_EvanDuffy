@@ -34,7 +34,7 @@ The synthesis process translates the Verilog HDL into a hardware netlist, ready 
 <a href="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/Demo_Vid.webm" target="_blank">Video Demonstration</a>
 
 ## **My VGA Design Edit**
-Introduce your own design idea. Consider how complex/achievabble this might be or otherwise. Reference any research you do online (use hyperlinks).
+For my own VGA Design i will be improving on the flashing colours test bench. My plans are implement a fading transition between the different colours, while also including buttons to increase/decrease the speed of this fading.
 ### **Code Adaptation**
 Briefly show how you changed the template code to display a different image. Demonstrate your understanding. Guideline: 1-2 short paragraphs.
 ### **Simulation**
