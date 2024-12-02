@@ -48,6 +48,7 @@ The Code above Configures a Clock Signal,a switch (rst) ,two push buttons (btn_u
 
 
 
+
 #### *-Input/Output and Registers declerations*
 <img src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/ColourCycleDeclerations.png">
 The code above has been taken from the ColourCycle Module, in this section the Inputs/Outputs and Registers have been declared.
@@ -72,6 +73,7 @@ colour: A 12-bit register representing the current RGB color.
 fade_counter: A 32-bit counter for managing the color fading speed.
 speed: A 32-bit register to control the speed of color changes.
 direction: A 1-bit register indicating fading direction (0 = down, 1 = up).
+
 
 
 
@@ -106,6 +108,8 @@ If the color reaches 0, the direction switches to fading up (direction = 1).
 The fading speed is controlled by comparing fade_counter to the speed register. A higher speed value results in slower color changes, while a lower value makes them faster.
 
 
+
+
 #### *-Speed Control Logic*
 <img src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/SpeedControlLogic.png">
 This code snippet implements speed control logic for adjusting the fading speed of an RGB color controller based on button inputs. 
@@ -132,6 +136,9 @@ The speed value is incremented by 32'd500000, resulting in slower color fading.
 The speed value is clamped within a range:
 A minimum limit of 32'd50000 prevents the fading from becoming too fast.
 A maximum limit of 32'd30000000 prevents it from becoming excessively slow.
+
+
+
 
 ### **Simulation**
 Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
