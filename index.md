@@ -78,6 +78,7 @@ direction: A 1-bit register indicating fading direction (0 = down, 1 = up).
 #### *-Colour Fading Logic*
 <img src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/ColourFadingLogic.png">
 This block controls the fading colour logic,enabling smooth transitions between the colour changes by incrementing or decrementing the colour value over time.
+
 #### Reset Logic:
 On a reset (rst):
 The fade_counter is set to 0.
