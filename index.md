@@ -46,6 +46,8 @@ The above snippet of code from the projects constraint file which in Vivado is a
 
 The Code above Configures a Clock Signal,a switch (rst) ,two push buttons (btn_up, btn_down) and three LEDS (led[0], led[1], and led[2]).
 
+<img src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/Schematic.png">
+
 
 #### *-Input/Output and Registers declerations*
 <img src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/ColourCycleDeclerations.png">
