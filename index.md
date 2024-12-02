@@ -53,19 +53,22 @@ The Code above Configures a Clock Signal,a switch (rst) ,two push buttons (btn_u
 The code above has been taken from the ColourCycle Module, in this section the Inputs/Outputs and Registers have been declared.
 Inputs:
 
-1. Inputs:
+##### 1. Inputs:
+
 clk: Clock signal.
 rst: Reset signal.
 btn_up: Button to increase speed.
 btn_down: Button to decrease speed.
 Outputs:
 
-2. Outputs:
+##### 2. Outputs:
+
 red, green, blue: Outputs for controlling the RGB color channels (each 4 bits wide).
 led: Debugging LEDs (3 bits wide).
 Internal Registers:
 
-3. Internal Registers:
+##### 3. Internal Registers:
+
 colour: A 12-bit register representing the current RGB color.
 fade_counter: A 32-bit counter for managing the color fading speed.
 speed: A 32-bit register to control the speed of color changes.
