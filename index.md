@@ -40,10 +40,16 @@ For my own VGA Design i will be improving on the basic flashing colours test ben
 ### **Code Adaptation**
 To implement buttons that would change the display i had to make edits to mulitple files.
 #### *-Master.Xdc File Changes*
-#### *-Input/Output and Registers declerations*
-#### *-Colour Fading Logic*
-#### *-Speed Control Logic*
+<img src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/Basys3_Mater.xdc.png">
 
+#### *-Input/Output and Registers declerations*
+<img src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/ColourCycleDeclerations.png">
+
+#### *-Colour Fading Logic*
+<img src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/ColourFadingLogic.png">
+
+#### *-Speed Control Logic*
+<img src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/SpeedControlLogic.png">
 
 ### **Simulation**
 Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
