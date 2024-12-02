@@ -50,6 +50,27 @@ The Code above Configures a Clock Signal,a switch (rst) ,two push buttons (btn_u
 
 #### *-Input/Output and Registers declerations*
 <img src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/ColourCycleDeclerations.png">
+The code above has been taken from the ColourCycle Module, in this section the Inputs/Outputs and Registers have been declared.
+Inputs:
+
+1. Inputs:
+clk: Clock signal.
+rst: Reset signal.
+btn_up: Button to increase speed.
+btn_down: Button to decrease speed.
+Outputs:
+
+2. Outputs:
+red, green, blue: Outputs for controlling the RGB color channels (each 4 bits wide).
+led: Debugging LEDs (3 bits wide).
+Internal Registers:
+
+3. Internal Registers:
+colour: A 12-bit register representing the current RGB color.
+fade_counter: A 32-bit counter for managing the color fading speed.
+speed: A 32-bit register to control the speed of color changes.
+direction: A 1-bit register indicating fading direction (0 = down, 1 = up).
+
 
 #### *-Colour Fading Logic*
 <img src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/ColourFadingLogic.png">
