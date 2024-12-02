@@ -41,8 +41,9 @@ For my own VGA Design i will be improving on the basic flashing colours test ben
 To implement buttons that would change the display i had to make edits to mulitple files.
 #### *-Master.Xdc File Changes*
 <img src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/Basys3_Master.xdc.png">
-The above snippet of code from the projects constraint file which in Vivado is a `xdc file`, which is used to map the physical pins of the FPGA to the logical signals in the design.
-The Code above Configures a Clock Signal,a switch (rst) ,two push buttons (btn_up, btn_down) and three LEDS.
+The above snippet of code from the projects constraint file which in Vivado is a ".xdc file", which is used to map the physical pins of the FPGA to the logical signals in the design.
+
+The Code above Configures a Clock Signal,a switch (rst) ,two push buttons (btn_up, btn_down) and three LEDS (led[0], led[1], and led[2]).
 
 #### *-Input/Output and Registers declerations*
 <img src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/ColourCycleDeclerations.png">
