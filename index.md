@@ -117,7 +117,6 @@ The default speed provides a balanced starting point, and the step sizes for adj
 
 On reset (rst):
 The speed register is set to a default value of 32'd5000000, which corresponds to a medium fading speed.
-Button Logic for Speed Adjustment:
 
 #### Increase Speed (btn_up):
 
@@ -133,9 +132,6 @@ The speed value is incremented by 32'd500000, resulting in slower color fading.
 The speed value is clamped within a range:
 A minimum limit of 32'd50000 prevents the fading from becoming too fast.
 A maximum limit of 32'd30000000 prevents it from becoming excessively slow.
-Summary:
-This logic dynamically adjusts the fading speed based on user input:
-
 
 ### **Simulation**
 Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
