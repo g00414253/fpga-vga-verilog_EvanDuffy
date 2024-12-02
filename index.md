@@ -74,6 +74,7 @@ speed: A 32-bit register to control the speed of color changes.
 direction: A 1-bit register indicating fading direction (0 = down, 1 = up).
 
 
+
 #### *-Colour Fading Logic*
 <img src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/ColourFadingLogic.png">
 
