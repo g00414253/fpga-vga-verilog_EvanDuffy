@@ -36,9 +36,10 @@ The synthesis process translates the Verilog HDL into a hardware netlist, ready 
 <a href="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/Demo_Vid.webm" target="_blank">Video Demonstration</a>
 
 ## **My VGA Design Edit**
-For my own VGA Design i will be improving on the flashing colours test bench. My plans are implement a fading transition between the different colours, while also including buttons to increase/decrease the speed of this fading.
+For my own VGA Design i will be improving on the basic flashing colours test bench. My plan is to change the colours that are flashing while also improving the transitons by fading into the next colour instead of an instant swap. I will also add three buttons to interact with the display. One to increase the transtion speed, one to decrease the transiton speed and one to reset the speed by to its default pace.
 ### **Code Adaptation**
-Briefly show how you changed the template code to display a different image. Demonstrate your understanding. Guideline: 1-2 short paragraphs.
+To implement buttons that would change the display i had to make edits to mulitple files.
+# *Master.Xdc File Changes**
 ### **Simulation**
 Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
 ### **Synthesis**
