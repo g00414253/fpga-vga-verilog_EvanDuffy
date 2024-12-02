@@ -108,6 +108,34 @@ The fading speed is controlled by comparing fade_counter to the speed register. 
 
 #### *-Speed Control Logic*
 <img src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/SpeedControlLogic.png">
+This code snippet implements speed control logic for adjusting the fading speed of an RGB color controller based on button inputs. 
+Pressing btn_up speeds up the fading.
+Pressing btn_down slows down the fading.
+The default speed provides a balanced starting point, and the step sizes for adjustment (250000 and 500000) ensure noticeable changes without abrupt jumps.
+
+#### Reset Logic:
+
+On reset (rst):
+The speed register is set to a default value of 32'd5000000, which corresponds to a medium fading speed.
+Button Logic for Speed Adjustment:
+
+#### Increase Speed (btn_up):
+
+If the btn_up button is pressed and the speed value is greater than 32'd50000:
+The speed value is decremented by 32'd250000, resulting in faster color fading.
+#### Decrease Speed (btn_down):
+
+If the btn_down button is pressed and the speed value is less than 32'd30000000:
+The speed value is incremented by 32'd500000, resulting in slower color fading.
+
+#### Conditions:
+
+The speed value is clamped within a range:
+A minimum limit of 32'd50000 prevents the fading from becoming too fast.
+A maximum limit of 32'd30000000 prevents it from becoming excessively slow.
+Summary:
+This logic dynamically adjusts the fading speed based on user input:
+
 
 ### **Simulation**
 Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
