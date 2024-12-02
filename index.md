@@ -39,10 +39,10 @@ The synthesis process translates the Verilog HDL into a hardware netlist, ready 
 For my own VGA Design i will be improving on the basic flashing colours test bench. My plan is to change the colours that are flashing while also improving the transitons by fading into the next colour instead of an instant swap. I will also add three buttons to interact with the display. One to increase the transtion speed, one to decrease the transiton speed and one to reset the speed by to its default pace.
 ### **Code Adaptation**
 To implement buttons that would change the display i had to make edits to mulitple files.
-#### *Master.Xdc File Changes*
+#### *<u>Master.Xdc File Changes*
 #### *Input/Output and Registers declerations*
 #### *Colour Fading Logic*
-#### *Speed Control Logic*
+#### *Speed Control Logic</u>*
 
 
 ### **Simulation**
