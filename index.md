@@ -40,7 +40,7 @@ For my own VGA Design i will be improving on the basic flashing colours test ben
 ### **Code Adaptation**
 To implement buttons that would change the display i had to make edits to mulitple files.
 
-#### *-Master.Xdc File Changes*
+#### *<u>-Master.Xdc File Changes</u>*
 <img src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/Basys3_Master.xdc.png">
 The above snippet of code from the projects constraint file which in Vivado is a ".xdc file", which is used to map the physical pins of the FPGA to the logical signals in the design.This setup will provide proper communication between design and components by defining pin numbers and the volatge standards.
 
