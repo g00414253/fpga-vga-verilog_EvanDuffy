@@ -39,11 +39,14 @@ The synthesis process translates the Verilog HDL into a hardware netlist, ready 
 For my own VGA Design i will be improving on the basic flashing colours test bench. My plan is to change the colours that are flashing while also improving the transitons by fading into the next colour instead of an instant swap. I will also add three buttons to interact with the display. One to increase the transtion speed, one to decrease the transiton speed and one to reset the speed by to its default pace.
 ### **Code Adaptation**
 To implement buttons that would change the display i had to make edits to mulitple files.
+
 #### *-Master.Xdc File Changes*
 <img src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/Basys3_Master.xdc.png">
-The above snippet of code from the projects constraint file which in Vivado is a ".xdc file", which is used to map the physical pins of the FPGA to the logical signals in the design.
+The above snippet of code from the projects constraint file which in Vivado is a ".xdc file", which is used to map the physical pins of the FPGA to the logical signals in the design.This setup will provide proper communication between design and components by defining pin numbers and the volatge standards.
 
 The Code above Configures a Clock Signal,a switch (rst) ,two push buttons (btn_up, btn_down) and three LEDS (led[0], led[1], and led[2]).
+
+
 
 #### *-Input/Output and Registers declerations*
 <img src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/ColourCycleDeclerations.png">
