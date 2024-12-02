@@ -40,7 +40,7 @@ For my own VGA Design i will be improving on the basic flashing colours test ben
 ### **Code Adaptation**
 To implement buttons that would change the display i had to make edits to mulitple files.
 
-#### *-Master.Xdc File Changes*
+### *-Master.Xdc File Changes*
 <img src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/Basys3_Master.xdc.png">
 The above snippet of code from the projects constraint file which in Vivado is a ".xdc file", which is used to map the physical pins of the FPGA to the logical signals in the design.This setup will provide proper communication between design and components by defining pin numbers and the volatge standards.
 
@@ -49,7 +49,7 @@ The Code above Configures a Clock Signal,a switch (rst) ,two push buttons (btn_u
 <img src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/Schematic.png">
 
 
-#### *-Input/Output and Registers declerations*
+### *-Input/Output and Registers declerations*
 <img src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/ColourCycleDeclerations.png">
 The code above has been taken from the ColourCycle Module, in this section the Inputs/Outputs and Registers have been declared.
 
@@ -75,7 +75,7 @@ speed: A 32-bit register to control the speed of color changes.
 direction: A 1-bit register indicating fading direction (0 = down, 1 = up).
 
 
-#### *-Colour Fading Logic*
+### *-Colour Fading Logic*
 <img src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/ColourFadingLogic.png">
 This block controls the fading colour logic,enabling smooth transitions between the colour changes by incrementing or decrementing the colour value over time.
 
@@ -106,7 +106,7 @@ If the color reaches 0, the direction switches to fading up (direction = 1).
 The fading speed is controlled by comparing fade_counter to the speed register. A higher speed value results in slower color changes, while a lower value makes them faster.
 
 
-#### *-Speed Control Logic*
+### *-Speed Control Logic*
 <img src="https://raw.githubusercontent.com/g00414253/fpga-vga-verilog_EvanDuffy/main/docs/assets/images/SpeedControlLogic.png">
 This code snippet implements speed control logic for adjusting the fading speed of an RGB color controller based on button inputs. 
 Pressing btn_up speeds up the fading.
